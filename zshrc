@@ -115,8 +115,6 @@ alias vi='vim'
 alias javac="javac -J-Dfile.encoding=utf8"
 alias grep="grep --color=auto"
 alias -s html=vim
-alias -s rb=vim 
-alias -s py=vim
 alias -s js=vi
 alias -s c=vi
 alias -s java=vi
@@ -128,3 +126,4 @@ alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
 
 export PATH=$PATH:/usr/local/go/bin
+export TERM="xterm-256color"
