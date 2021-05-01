@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo apt update
+sudo apt install git zsh curl fontconfig -y
+
 if [ ! -f /usr/bin/git ]
 then
     echo "cannot find git, please install git before running this script"
