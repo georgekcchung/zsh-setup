@@ -70,7 +70,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions z zsh-syntax-highlighting history-substring-search)
+plugins=(git ssh-agent zsh-autosuggestions z zsh-syntax-highlighting history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 
